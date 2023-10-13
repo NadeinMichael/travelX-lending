@@ -71,7 +71,10 @@
   &__scrollbar {
     position: absolute;
     right: 0;
-    top: 50%;
-    transform: translate(0%, -50%);
+    top: 45%;
+    width: 400px;
+    height: 10px;
+    transform: rotate(90deg) translate(50%, 0%);
+    transform-origin: right top;
   }
 }

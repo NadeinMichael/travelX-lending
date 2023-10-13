@@ -12,16 +12,145 @@
 
     <header class="header">
       <!-- Swiper -->
-
-      <!-- Slider content -->
-      <div class="header__slide"><div class="slide">
+      <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><div class="slide">
   <div class="slide__header">
-    <div class="slide__tagline">EXPLORE</div>
-    <h1 class="slide__title">
+    <div
+      class="slide__tagline"
+      data-swiper-parallax-opacity="0"
+      data-swiper-parallax="150%"
+    >
+      EXPLORE
+    </div>
+    <h1 class="slide__title" data-swiper-parallax="-100%">
       <span>Norway</span>
     </h1>
   </div>
-  <div class="slide__locations">
+  <div class="slide__locations" data-swiper-parallax="-500">
+    <a href="#!" class="location">
+      <div class="location__title">Location #1</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+    <a href="#!" class="location">
+      <div class="location__title">Location #2</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+    <a href="#!" class="location">
+      <div class="location__title">Location #3</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+  </div>
+</div>
+</div>
+    <div class="swiper-slide"><div class="slide">
+  <div class="slide__header">
+    <div
+      class="slide__tagline"
+      data-swiper-parallax-opacity="0"
+      data-swiper-parallax="150%"
+    >
+      EXPLORE
+    </div>
+    <h1 class="slide__title" data-swiper-parallax="-100%">
+      <span>Norway</span>
+    </h1>
+  </div>
+  <div class="slide__locations" data-swiper-parallax="-500">
+    <a href="#!" class="location">
+      <div class="location__title">Location #1</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+    <a href="#!" class="location">
+      <div class="location__title">Location #2</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+    <a href="#!" class="location">
+      <div class="location__title">Location #3</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+  </div>
+</div>
+</div>
+    <div class="swiper-slide"><div class="slide">
+  <div class="slide__header">
+    <div
+      class="slide__tagline"
+      data-swiper-parallax-opacity="0"
+      data-swiper-parallax="150%"
+    >
+      EXPLORE
+    </div>
+    <h1 class="slide__title" data-swiper-parallax="-100%">
+      <span>Norway</span>
+    </h1>
+  </div>
+  <div class="slide__locations" data-swiper-parallax="-500">
+    <a href="#!" class="location">
+      <div class="location__title">Location #1</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+    <a href="#!" class="location">
+      <div class="location__title">Location #2</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+    <a href="#!" class="location">
+      <div class="location__title">Location #3</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+  </div>
+</div>
+</div>
+    <div class="swiper-slide"><div class="slide">
+  <div class="slide__header">
+    <div
+      class="slide__tagline"
+      data-swiper-parallax-opacity="0"
+      data-swiper-parallax="150%"
+    >
+      EXPLORE
+    </div>
+    <h1 class="slide__title" data-swiper-parallax="-100%">
+      <span>Norway</span>
+    </h1>
+  </div>
+  <div class="slide__locations" data-swiper-parallax="-500">
+    <a href="#!" class="location">
+      <div class="location__title">Location #1</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+    <a href="#!" class="location">
+      <div class="location__title">Location #2</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+    <a href="#!" class="location">
+      <div class="location__title">Location #3</div>
+      <div class="location__link">Plan a trip</div>
+    </a>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+
+      <!-- Slider content -->
+      <div class="header__slide none"><div class="slide">
+  <div class="slide__header">
+    <div
+      class="slide__tagline"
+      data-swiper-parallax-opacity="0"
+      data-swiper-parallax="150%"
+    >
+      EXPLORE
+    </div>
+    <h1 class="slide__title" data-swiper-parallax="-100%">
+      <span>Norway</span>
+    </h1>
+  </div>
+  <div class="slide__locations" data-swiper-parallax="-500">
     <a href="#!" class="location">
       <div class="location__title">Location #1</div>
       <div class="location__link">Plan a trip</div>
@@ -83,13 +212,15 @@
     </button>
   </div>
   <div class="slider-controls__count">
-    <span class="slider-controls__count-current">01</span>
+    <!-- <span class="slider-controls__count-current">01</span>
     /
-    <span class="slider-controls__count-total">04</span>
+    <span class="slider-controls__count-total">04</span> -->
   </div>
 </div>
 </div>
-  <div class="header__scrollbar"></div>
+  <div class="header__scrollbar">
+    <div class="swiper-scrollbar"></div>
+  </div>
 </div>
 
     </header>
